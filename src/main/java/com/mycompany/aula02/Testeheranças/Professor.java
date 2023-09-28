@@ -8,7 +8,7 @@ public class Professor extends Pessoa {
     private float salario;
     
     public void ReceberAumento(){
-        this.salario = this.salario + 60;
+        
     }
     public String getespecialidade(){
         return especialidade;
