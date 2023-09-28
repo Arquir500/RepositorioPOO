@@ -12,8 +12,10 @@ public class Livro implements Publicação{
 
     
     public String detalhes() {
-        return "Livro" + " titulo = " + titulo + "\n autor=" + autor + "\n totalpag=" + totalpag + 
-                ", pagatual=" + pagatual + ", aberto=" + aberto + "\n leitor=" + leitor;
+        return "Livro" + " titulo = " + titulo + "\n autor= " + autor + "\n totalpag= " + totalpag + 
+                ", pagatual= " + pagatual + ", aberto= " + aberto + "\n leitor= " + leitor.getnome() +", idade= "
+                +leitor.getidade()+  ", sexo= " + leitor.getsexo();
+                
     }
     
   
