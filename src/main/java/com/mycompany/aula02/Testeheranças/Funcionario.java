@@ -22,4 +22,8 @@ public class Funcionario extends Pessoa {
     public void settrabalhando(boolean trabalhando){
         this.trabalhando= trabalhando;
     }
+
+    boolean getsalario() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

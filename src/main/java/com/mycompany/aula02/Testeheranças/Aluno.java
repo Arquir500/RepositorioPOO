@@ -4,17 +4,17 @@ package com.mycompany.aula02.Testeheranças;
 import com.mycompany.aula02.Testeheranças.Pessoa;
 
 public class Aluno extends Pessoa {
-    private int matricula;
+    private boolean matriculado;
     private String curso;
     
     public void cancelarMatricula(){
         
     }
-    public int getmatricula(){
-        return matricula;
+    public boolean getmatriculado(){
+        return matriculado;
     }
-    public void setmatricula( int matricula){
-        this.matricula = matricula;
+    public void setmatriculado( boolean matricula){
+        this.matriculado = matriculado;
     }
     public String getcurso(){
         return curso;

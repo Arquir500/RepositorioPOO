@@ -19,13 +19,16 @@ public class Pessoa {
     public int getidade(){
         return idade;
     }
-    public void getidade(int idade){
+    public void setidade(int idade){
         this.idade =idade;
     }
     public String getsexo(){
         return sexo;
     }
-    public void getsexo(String nome){
+    public void setsexo(String sexo){
         this.sexo=sexo;
     }
+    public String pessoasStatus() {
+        return "Pessoa{" + "nome=" + nome + ", idade=" + idade + ", sexo=" + sexo +'}';
+    }   
 }
