@@ -13,7 +13,20 @@ public class ProjetoLivro {
         l[1]= new Livro("A morte","Sr.S", 500, P[1]);
         l[2]= new Livro("A ressureição","Sr.J", 3, P[2]);
         
-        l[0].folhear(2);
+        l[2].abrir();
+        l[1].abrir();
+        l[0].abrir();
+        
+        
+        l[0].folhear(70);
+        l[2].avancarPag();
+        l[1].folhear(50);
+        
+        l[0].avancarPag();
+        l[0].avancarPag();
+        l[1].avancarPag();
+        
+        l[2].voltarPag();
         
         System.out.println(l[0].detalhes());
         System.out.println(l[1].detalhes());
